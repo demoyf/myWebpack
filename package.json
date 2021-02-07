@@ -1,0 +1,26 @@
+{
+  "name": "mywebpack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "mywebpack" : "node ./lib/mywebpack.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/demoyf/myWebpack.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/demoyf/myWebpack/issues"
+  },
+  "homepage": "https://github.com/demoyf/myWebpack#readme",
+  "dependencies": {
+    "@babel/generator": "^7.12.15",
+    "@babel/parser": "^7.12.15",
+    "@babel/traverse": "^7.12.13",
+    "@babel/types": "^7.12.13"
+  }
+}
